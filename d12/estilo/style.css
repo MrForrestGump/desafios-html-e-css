@@ -13,6 +13,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body{
@@ -25,6 +26,7 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--fonte2);
 }
 
 header > h1{
@@ -32,6 +34,7 @@ header > h1{
     /* text-transform: uppercase; todas maiúsculas */
     font-variant: small-caps;
     /*todas as letras maiúsculas, mas as primeiras são maiores*/
+    font-size: 7vw;
 }
 
 header > p{
@@ -53,6 +56,8 @@ section{
     padding: 10vh 0 10vh 0;
     line-height: 2em; /*espaçamento entre as linhas*/
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3vw;
 }
 
 
@@ -66,7 +71,8 @@ section.imagem{
 }
 
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
+    padding: 8px;
     background-color: rgba(0, 0, 0, 0.288);
     border-radius: 5px;
 }
